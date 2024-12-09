@@ -1,0 +1,8 @@
+---
+# tasks file for 2p_benegas
+- name: Creamos usuario '2p_2024_UDefensa' con un directorio home
+  become: yes
+  ansible.builtin.user:
+    name: 2p_2024_UDefensa
+    create_home: yes
+

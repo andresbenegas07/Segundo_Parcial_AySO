@@ -1,0 +1,188 @@
+2024-12-04 01:16:13,230 p=11431 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-12-04 01:16:13,745 p=11431 u=vagrant n=ansible | ERROR! couldn't resolve module/action 'include role'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/vagrant/2p_2024/D_Ansible/playbook.yml': line 11, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - include role:
+      ^ here
+
+2024-12-04 01:18:10,250 p=11453 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was
+127.0.0.1
+
+2024-12-04 01:18:10,505 p=11453 u=vagrant n=ansible | ERROR! couldn't resolve module/action 'include role'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/vagrant/2p_2024/D_Ansible/playbook.yml': line 11, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - include role:
+      ^ here
+
+2024-12-04 01:22:31,668 p=11486 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found
+localhost was 127.0.0.1
+
+2024-12-04 01:22:32,027 p=11486 u=vagrant n=ansible | ERROR! couldn't resolve module/action 'include role'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/vagrant/2p_2024/D_Ansible/playbook.yml': line 11, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - include role:
+      ^ here
+
+2024-12-04 01:27:41,395 p=11499 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found
+localhost was 127.0.0.1
+
+2024-12-04 01:27:41,630 p=11499 u=vagrant n=ansible | ERROR! couldn't resolve module/action 'include role'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/vagrant/2p_2024/D_Ansible/playbook.yml': line 10, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - include role:
+      ^ here
+
+2024-12-04 01:44:38,052 p=11545 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 01:44:38,235 p=11545 u=vagrant n=ansible | ERROR! couldn't resolve module/action 'include role'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/vagrant/2p_2024/D_Ansible/playbook.yml': line 10, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - include role:
+      ^ here
+
+2024-12-04 01:48:30,806 p=11563 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 01:48:31,009 p=11563 u=vagrant n=ansible | ERROR! couldn't resolve module/action 'include role'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/vagrant/2p_2024/D_Ansible/playbook.yml': line 10, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - include role:
+      ^ here
+
+2024-12-04 01:55:11,634 p=11678 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 01:55:11,843 p=11678 u=vagrant n=ansible | PLAY [all] *************************************************************************************************************
+2024-12-04 01:55:11,879 p=11678 u=vagrant n=ansible | TASK [Gathering Facts] *************************************************************************************************
+2024-12-04 01:55:15,448 p=11678 u=vagrant n=ansible | ok: [localhost]
+2024-12-04 01:55:15,593 p=11678 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-12-04 01:55:15,618 p=11678 u=vagrant n=ansible | TASK [include_role : 2p_benegas] ***************************************************************************************
+2024-12-04 01:55:15,707 p=11678 u=vagrant n=ansible | TASK [2p_benegas : Creamos usuario '2p_2024_UDefensa' con un directorio home] ******************************************
+2024-12-04 01:55:16,793 p=11678 u=vagrant n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "useradd: Permission denied.\nuseradd: cannot lock /etc/passwd; try again later.\n", "name": "2p_2024_UDefensa", "rc": 1}
+2024-12-04 01:55:16,874 p=11678 u=vagrant n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "useradd: Permission denied.\nuseradd: cannot lock /etc/passwd; try again later.\n", "name": "2p_2024_UDefensa", "rc": 1}
+2024-12-04 01:55:16,881 p=11678 u=vagrant n=ansible | PLAY RECAP *************************************************************************************************************
+2024-12-04 01:55:16,881 p=11678 u=vagrant n=ansible | 127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-12-04 01:55:16,881 p=11678 u=vagrant n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-12-04 01:56:19,365 p=11979 u=root n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 01:56:19,585 p=11979 u=root n=ansible | PLAY [all] **********************************************************************************************************************************************************************************************************************************
+2024-12-04 01:56:19,603 p=11979 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************************************************************************************************************************
+2024-12-04 01:56:19,779 p=11979 u=root n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nroot@127.0.0.1: Permission denied (publickey,password).", "unreachable": true}
+2024-12-04 01:56:21,573 p=11979 u=root n=ansible | ok: [localhost]
+2024-12-04 01:56:21,598 p=11979 u=root n=ansible | TASK [include_role : 2p_benegas] ************************************************************************************************************************************************************************************************************
+2024-12-04 01:56:21,643 p=11979 u=root n=ansible | TASK [2p_benegas : Creamos usuario '2p_2024_UDefensa' con un directorio home] ***************************************************************************************************************************************************************
+2024-12-04 01:56:22,305 p=11979 u=root n=ansible | changed: [localhost]
+2024-12-04 01:56:22,318 p=11979 u=root n=ansible | TASK [Otra tarea] ***************************************************************************************************************************************************************************************************************************
+2024-12-04 01:56:22,339 p=11979 u=root n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 01:56:22,361 p=11979 u=root n=ansible | PLAY RECAP **********************************************************************************************************************************************************************************************************************************
+2024-12-04 01:56:22,361 p=11979 u=root n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 01:56:22,362 p=11979 u=root n=ansible | localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 01:57:49,561 p=12121 u=root n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 01:57:49,767 p=12121 u=root n=ansible | PLAY [all] **********************************************************************************************************************************************************************************************************************************
+2024-12-04 01:57:49,785 p=12121 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************************************************************************************************************************
+2024-12-04 01:57:49,947 p=12121 u=root n=ansible | fatal: [127.0.0.1]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.\r\nroot@127.0.0.1: Permission denied (publickey,password).", "unreachable": true}
+2024-12-04 01:57:51,581 p=12121 u=root n=ansible | ok: [localhost]
+2024-12-04 01:57:51,607 p=12121 u=root n=ansible | TASK [include_role : 2p_benegas] ************************************************************************************************************************************************************************************************************
+2024-12-04 01:57:51,654 p=12121 u=root n=ansible | TASK [2p_benegas : Creamos usuario '2p_2024_UDefensa' con un directorio home] ***************************************************************************************************************************************************************
+2024-12-04 01:57:52,201 p=12121 u=root n=ansible | ok: [localhost]
+2024-12-04 01:57:52,214 p=12121 u=root n=ansible | TASK [Otra tarea] ***************************************************************************************************************************************************************************************************************************
+2024-12-04 01:57:52,237 p=12121 u=root n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 01:57:52,261 p=12121 u=root n=ansible | PLAY RECAP **********************************************************************************************************************************************************************************************************************************
+2024-12-04 01:57:52,263 p=12121 u=root n=ansible | 127.0.0.1                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 01:57:52,264 p=12121 u=root n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 02:08:48,038 p=12315 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 02:08:48,237 p=12315 u=vagrant n=ansible | PLAY [all] **********************************************************************************************************************************************************************************************************************************
+2024-12-04 02:08:48,255 p=12315 u=vagrant n=ansible | TASK [Gathering Facts] **********************************************************************************************************************************************************************************************************************
+2024-12-04 02:08:50,938 p=12315 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-12-04 02:08:50,969 p=12315 u=vagrant n=ansible | ok: [localhost]
+2024-12-04 02:08:50,994 p=12315 u=vagrant n=ansible | TASK [include_role : 2p_benegas] ************************************************************************************************************************************************************************************************************
+2024-12-04 02:08:51,078 p=12315 u=vagrant n=ansible | TASK [2p_benegas : Creamos usuario '2p_2024_UDefensa' con un directorio home] ***************************************************************************************************************************************************************
+2024-12-04 02:08:51,969 p=12315 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-12-04 02:08:51,982 p=12315 u=vagrant n=ansible | ok: [localhost]
+2024-12-04 02:08:51,995 p=12315 u=vagrant n=ansible | TASK [Otra tarea] ***************************************************************************************************************************************************************************************************************************
+2024-12-04 02:08:52,046 p=12315 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 02:08:52,051 p=12315 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 02:08:52,080 p=12315 u=vagrant n=ansible | PLAY RECAP **********************************************************************************************************************************************************************************************************************************
+2024-12-04 02:08:52,080 p=12315 u=vagrant n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 02:08:52,080 p=12315 u=vagrant n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 07:18:37,097 p=15262 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 07:18:37,719 p=15262 u=vagrant n=ansible | PLAY [all] ****************************************************************************************************************************
+2024-12-04 07:18:37,754 p=15262 u=vagrant n=ansible | TASK [Gathering Facts] ****************************************************************************************************************
+2024-12-04 07:18:40,871 p=15262 u=vagrant n=ansible | ok: [localhost]
+2024-12-04 07:18:40,954 p=15262 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-12-04 07:18:40,985 p=15262 u=vagrant n=ansible | TASK [include_role : 2p_benegas] ******************************************************************************************************
+2024-12-04 07:18:41,073 p=15262 u=vagrant n=ansible | TASK [2p_benegas : Creamos usuario '2p_2024_UDefensa' con un directorio home] *********************************************************
+2024-12-04 07:18:42,029 p=15262 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-12-04 07:18:42,039 p=15262 u=vagrant n=ansible | ok: [localhost]
+2024-12-04 07:18:42,055 p=15262 u=vagrant n=ansible | TASK [Otra tarea] *********************************************************************************************************************
+2024-12-04 07:18:42,107 p=15262 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 07:18:42,121 p=15262 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 07:18:42,141 p=15262 u=vagrant n=ansible | PLAY RECAP ****************************************************************************************************************************
+2024-12-04 07:18:42,141 p=15262 u=vagrant n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 07:18:42,143 p=15262 u=vagrant n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 08:14:06,570 p=15653 u=vagrant n=ansible | - Role roles/pepe was created successfully
+2024-12-04 08:21:43,423 p=15731 u=vagrant n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-12-04 08:21:43,617 p=15731 u=vagrant n=ansible | PLAY [all] ****************************************************************************************************************************
+2024-12-04 08:21:43,633 p=15731 u=vagrant n=ansible | TASK [Gathering Facts] ****************************************************************************************************************
+2024-12-04 08:21:46,486 p=15731 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-12-04 08:21:46,565 p=15731 u=vagrant n=ansible | ok: [localhost]
+2024-12-04 08:21:46,595 p=15731 u=vagrant n=ansible | TASK [include_role : 2p_benegas] ******************************************************************************************************
+2024-12-04 08:21:46,678 p=15731 u=vagrant n=ansible | TASK [2p_benegas : Creamos usuario '2p_2024_UDefensa' con un directorio home] *********************************************************
+2024-12-04 08:21:47,607 p=15731 u=vagrant n=ansible | ok: [127.0.0.1]
+2024-12-04 08:21:47,619 p=15731 u=vagrant n=ansible | ok: [localhost]
+2024-12-04 08:21:47,633 p=15731 u=vagrant n=ansible | TASK [Otra tarea] *********************************************************************************************************************
+2024-12-04 08:21:47,685 p=15731 u=vagrant n=ansible | ok: [127.0.0.1] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 08:21:47,698 p=15731 u=vagrant n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2024-12-04 08:21:47,729 p=15731 u=vagrant n=ansible | PLAY RECAP ****************************************************************************************************************************
+2024-12-04 08:21:47,730 p=15731 u=vagrant n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-04 08:21:47,730 p=15731 u=vagrant n=ansible | localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
